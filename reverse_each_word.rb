@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  arrayed = sentence.split(",")
+  flipped = 
   arrayed.each do |test|
     arrayed.push(test.reverse)
   end
